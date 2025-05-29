@@ -1,5 +1,5 @@
-# Getting started with Python for Automated Testing in Browser
+# First introduction with fixture and conftest
 
-This project is an example of a minimal setup in Python to run simplest «search in google» scenario in Web Browser. 
+Learn difference between @pytest.fixture(scope='session') and @pytest.fixture(scope='function')
 
-Fore more details (in russian), find a tutorial at the project Wiki: [«Руководство по запуску первого автотеста на Python»](https://github.com/qa-guru/getting-started-python/wiki).
+And pytest --setup-plan
