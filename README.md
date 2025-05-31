@@ -2,4 +2,4 @@
 
 Learn difference between @pytest.fixture(scope='session') and @pytest.fixture(scope='function')
 
-And pytest --setup-plan
+And pytest --setup-plan - show sequence of launching functions with fixtures
