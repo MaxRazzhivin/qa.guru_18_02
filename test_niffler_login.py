@@ -1,5 +1,6 @@
 from selene import browser, have
 
+
 def test_succesfull_login(open_niffler):
     browser.element('[name=username]').type('stasd')
     browser.element('[name=password]').type('ratatui07')
@@ -30,7 +31,6 @@ def test_succesfull_login_check_username(open_niffler):
     browser.element('.link.nav-link').should(have.text('Profile')).click()
     browser.element('#username').should(have.value('stasd'))
     browser.quit()
-
 
 
 def test_succesfull_logout(open_niffler):
